@@ -22,15 +22,15 @@ const client = new djs.Client({
     ]
 });
 const slash = new SlashCMD(REST, Routes, client, djs.Collection, fs);
-const token = "bot token";
-const Id = "bot id";
+const token = "MTA0MjA5MzIyMDUwNDUzOTIwNg.GE6sXG.6WbRsq9MzgbjUW47ibKu5veuLcxHwRFkRE4qEQ";
+const Id = "1042093220504539206";
 
 client.on('ready', async () => {
     console.log('[ERUHLU]: Bot Hazır!');
     client.user.setPresence({
         activities: [
             {
-                name: `Ghost Development tarafından yapıldı.`,
+                name: `zehn Development tarafından yapıldı.`,
                 type: "WATCHING"
             }
         ],
